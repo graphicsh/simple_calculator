@@ -1,0 +1,50 @@
+/*
+	Стили для простейшего калькулятора на JavaScript
+*/
+
+#mainform {
+/* Стиль для главного блока */
+	border: 5px double black;
+	background-color: #FFFF98;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 22px;
+}
+
+#buttonsform {
+/* Стиль для блока с кнопками */
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 8px;
+}
+
+#inputa {
+/* Стиль для поля для ввода числа а */
+	margin-top: 10px;
+}
+
+#inputb {
+/* Стиль для поля для ввода числа b */
+	margin-top: 10px;
+}
+
+#resultdiv {
+/* Стиль для блока результата */
+	padding-top: 10px;
+}
+
+body {
+/* Стиль для тела html */
+	background-color: #ABA169;
+}
+
+a {
+/* Убрано подчёркивание ссылок */
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+/* Цвет ссылки при наведении */
+	color: green;
+}

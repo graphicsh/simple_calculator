@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<!-- 
+	html страничка для простейшего калькулятора на JavaScript
+-->
+	<head> 
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Простейший калькулятор на JavaScript</title>
+	</head>
+		<body>
+			<!-- Подключаем JS скрипт -->
+			<script src="script.js"></script>
+			<div id="mainform" align="center">
+				<p align="center"><b>a</b><br>
+				<input id="inputa" type="text" size="22">
+				<p align="center"><b>b</b><br>
+				<input id="inputb" type="text" size="22"><br>
+				<div id="buttonsform" align="center">
+					<input type="button" value="+" onclick="add()">
+					<input type="button" value="-" onclick="sub()">
+					<input type="button" value="/" onclick="div()">
+					<input type="button" value="*" onclick="mul()">
+					<div id="resultdiv" align="center">
+						<p><b>Результат:</b> <b id="result"> </b>
+				</div> 
+				</div>
+				
+			</div>
+		<footer><p align="right">Copyright <a href="https://www.youtube.com/channel/UCAwoqozl2nccku39rhL9_OA?sub_confirmation=1">graphics.h</a></footer>
+		</body>
+</html>
